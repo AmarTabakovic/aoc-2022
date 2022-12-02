@@ -27,8 +27,6 @@ int main() {
   for (auto &s : buffer) {
     char enemy_choice = s.at(0);
     char my_decision = s.at(2);
-    int i = 0;
-
     total_result += result_table[my_decision - 'X'][enemy_choice - 'A'];
   }
 
