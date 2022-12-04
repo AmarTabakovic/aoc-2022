@@ -19,7 +19,8 @@ int main() {
   }
 
   int sum = 0;
-  for ( auto &s : buffer) {
+  
+  for (auto &s : buffer) {
     int a;
     int b;
     int c;
@@ -32,7 +33,7 @@ int main() {
 
     if (d2 <= d1 && a <= c && b >= d || d1 <= d2 && c <= a && d >= b) sum++;
   }
-  
+
   std::cout << sum << std::endl;
 
   return 0;
